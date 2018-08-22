@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{945ef00c-3e34-4449-981e-8d4823bcc0db}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>4 Digit Number Combinations.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Assembler\examples\code.txt" />
+    <Content Include="Assembler\examples\code2.txt" />
+    <Content Include="Assembler\examples\code3.txt" />
+    <Content Include="Assembler\examples\code4.txt" />
+    <Content Include="Assembler\examples\test.txt" />
+    <Content Include="Assembler\GUIDE.txt" />
+    <Content Include="Assembler\README.txt" />
+    <Content Include="game_of_life\sample.gif" />
+    <Content Include="Koch Curve\README.txt" />
+    <Content Include="Shivaansh.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="4 Digit Number Combinations.py" />
+    <Compile Include="Assembler\assembler.py" />
+    <Compile Include="backup_automater_services.py" />
+    <Compile Include="batch_file_rename.py" />
+    <Compile Include="calculator.py" />
+    <Compile Include="chaos.py" />
+    <Compile Include="check_file.py" />
+    <Compile Include="check_for_sqlite_files.py" />
+    <Compile Include="check_input.py" />
+    <Compile Include="check_internet_con.py" />
+    <Compile Include="chicks_n_rabs.py" />
+    <Compile Include="CountMillionCharacter.py" />
+    <Compile Include="CountMillionCharacters-2.0.py" />
+    <Compile Include="CountMillionCharacters-Variations\variation1.py" />
+    <Compile Include="create_dir_if_not_there.py" />
+    <Compile Include="cricket_live_score.py" />
+    <Compile Include="Cricket_score.py" />
+    <Compile Include="daily_checks.py" />
+    <Compile Include="dec_to_hex.py" />
+    <Compile Include="dice.py" />
+    <Compile Include="diceV2_dynamic.py" />
+    <Compile Include="dice_rolling_simulator.py" />
+    <Compile Include="dir_test.py" />
+    <Compile Include="EncryptionTool.py" />
+    <Compile Include="env_check.py" />
+    <Compile Include="ex20.py" />
+    <Compile Include="factorial_perm_comp.py" />
+    <Compile Include="fileinfo.py" />
+    <Compile Include="find_prime.py" />
+    <Compile Include="folder_size.py" />
+    <Compile Include="ftp_send_receive.py" />
+    <Compile Include="game_of_life\game_o_life.py" />
+    <Compile Include="get_info_remoute_srv.py" />
+    <Compile Include="get_likes_on_FB.py" />
+    <Compile Include="get_youtube_view.py" />
+    <Compile Include="Google Image Downloader\create_dir.py" />
+    <Compile Include="Google Image Downloader\image grapper.py" />
+    <Compile Include="google.py" />
+    <Compile Include="Google_News.py" />
+    <Compile Include="GroupSms_Way2.py" />
+    <Compile Include="jee_result.py" />
+    <Compile Include="kmp_str_search.py" />
+    <Compile Include="Koch Curve\koch curve.py" />
+    <Compile Include="logs.py" />
+    <Compile Include="magic8ball.py" />
+    <Compile Include="meme_maker.py" />
+    <Compile Include="merge.py" />
+    <Compile Include="move_files_over_x_days.py" />
+    <Compile Include="multiplication_table.py" />
+    <Compile Include="nDigitNumberCombinations.py" />
+    <Compile Include="new_script.py" />
+    <Compile Include="nmap_scan.py" />
+    <Compile Include="nslookup_check.py" />
+    <Compile Include="Organise.py" />
+    <Compile Include="osinfo.py" />
+    <Compile Include="password_cracker.py" />
+    <Compile Include="ping_servers.py" />
+    <Compile Include="ping_subnet.py" />
+    <Compile Include="polygon.py" />
+    <Compile Include="portscanner.py" />
+    <Compile Include="powerdown_startup.py" />
+    <Compile Include="powerup_checks.py" />
+    <Compile Include="primelib\primelib.py" />
+    <Compile Include="Print_List_of_Even_Numbers.py" />
+    <Compile Include="prison_break_scrapper.py" />
+    <Compile Include="pscheck.py" />
+    <Compile Include="psunotify.py" />
+    <Compile Include="puttylogs.py" />
+    <Compile Include="python_sms.py" />
+    <Compile Include="QuadraticCalc.py" />
+    <Compile Include="random-sentences.py" />
+    <Compile Include="recyclebin.py" />
+    <Compile Include="script_count.py" />
+    <Compile Include="script_listing.py" />
+    <Compile Include="sendemail.py" />
+    <Compile Include="serial_scanner.py" />
+    <Compile Include="sierpinski_triangle.py" />
+    <Compile Include="SimpleStopWatch.py" />
+    <Compile Include="spotlight.py" />
+    <Compile Include="sqlite_check.py" />
+    <Compile Include="sqlite_table_check.py" />
+    <Compile Include="start-server.py" />
+    <Compile Include="testlines.py" />
+    <Compile Include="tf_idf_generator.py" />
+    <Compile Include="TicTacToe.py" />
+    <Compile Include="timymodule.py" />
+    <Compile Include="TTS.py" />
+    <Compile Include="tweeter.py" />
+    <Compile Include="two_num.py" />
+    <Compile Include="webcam.py" />
+    <Compile Include="wiki_random.py" />
+    <Compile Include="work_connect.py" />
+    <Compile Include="xkcd_downloader.py" />
+    <Compile Include="XORcipher\XOR_cipher.py" />
+    <Compile Include="youtube-downloader fast.py" />
+    <Compile Include="youtube.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assembler" />
+    <Folder Include="Assembler\examples" />
+    <Folder Include="CountMillionCharacters-Variations" />
+    <Folder Include="game_of_life" />
+    <Folder Include="Google Image Downloader" />
+    <Folder Include="Koch Curve" />
+    <Folder Include="primelib" />
+    <Folder Include="XORcipher" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

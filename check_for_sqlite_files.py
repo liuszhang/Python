@@ -15,8 +15,10 @@ def isSQLite3(filename):
     from os.path import isfile, getsize
 
     if not isfile(filename):
+        print(1)
         return False
     if getsize(filename) < 100: # SQLite database file header is 100 bytes
+        print(2)
         return False
     else:
         fd = open(filename, 'rb')

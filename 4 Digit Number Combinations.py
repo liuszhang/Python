@@ -10,3 +10,7 @@ def FourDigitCombinations():
 def oneLineCombinations():
     numbers = list(map(lambda x: str(x).zfill(4), [i for i in range(10000)]))
     print(numbers)
+
+if __name__=='__main__':
+    oneLineCombinations()
+    #FourDigitCombinations()

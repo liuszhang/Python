@@ -1,8 +1,9 @@
-import urllib2
+import urllib.request
 
-try:
-    urllib2.urlopen("http://google.com", timeout=2)
-    print ("working connection")
+if __name__=='__main__':
+    try:
+        urllib.request.urlopen("http://baidu.com", timeout=2)
+        print ("working connection")
 
-except urllib2.URLError:
-    print ("No internet connection")
+    except urllib.error.URLError:
+        print ("No internet connection")
